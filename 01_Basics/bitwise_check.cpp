@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int number;
+    cout<<"Enter number: ";
+    cin>>number;
+    if ((number & 1) == 1){
+        cout<<"odd: ";
+    }
+    else 
+    cout<<"even: ";
+    return 0;
+    
+}
